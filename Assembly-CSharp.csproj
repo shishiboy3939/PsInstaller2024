@@ -46,6 +46,7 @@
      <Compile Include="Assets\System\script\WebCamera.cs" />
      <Compile Include="Assets\System\script\fin.cs" />
      <Compile Include="Assets\System\script\psc_main.cs" />
+     <None Include="Assets\Test.txt" />
      <None Include="Assets\System\test01.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
