@@ -35,7 +35,7 @@ public class psc_main : MonoBehaviour
     public GameObject stage04_04;
     public GameObject stage04_05;
     public GameObject stage04_06;
-    public GameObject stage04_06_text;
+    //public GameObject stage04_06_text;
     public GameObject stage04_07;
     public GameObject step4_stage3;
     public GameObject step4_stage3_invitation;
@@ -85,7 +85,7 @@ public class psc_main : MonoBehaviour
         step4_stage5.SetActive(false);
         Push_switch_sound.SetActive(false);
         Change_image_sound.SetActive(false);
-        stage04_06_text.SetActive(false);
+       // stage04_06_text.SetActive(false);
         fin.SetActive(false);
         nabi_0000.SetActive(false);
         player_0000.SetActive(false);
@@ -295,7 +295,7 @@ public class psc_main : MonoBehaviour
         stage04_05.SetActive(false);
         Push_switch6.SetActive(false);
         stage04_06.SetActive(true);
-        stage04_06_text.SetActive(true);
+        //stage04_06_text.SetActive(true);
         Push_switch_sound.SetActive(false);
         Change_image_sound.SetActive(true);
         Invoke("step2_stage04_06_switch", 5.0f);
@@ -309,7 +309,7 @@ public class psc_main : MonoBehaviour
     public void step2_stage04_07()
     {
         stage04_06.SetActive(false);
-        stage04_06_text.SetActive(false);
+       //stage04_06_text.SetActive(false);
         Push_switch7.SetActive(false);
         stage04_07.SetActive(true);
         Push_switch_sound.SetActive(false);
@@ -352,7 +352,7 @@ public class psc_main : MonoBehaviour
         step4_stage3.SetActive(true);
         step4_stage5.SetActive(true);
         first_view.SetActive(false);
-        Invoke("step4_close", 61.5f);
+        Invoke("step4_close", 66.5f);
 
     }
     public void step4_close()
